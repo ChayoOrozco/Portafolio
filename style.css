@@ -1,0 +1,116 @@
+
+.background-container {
+    background-image: url('./img/fondomobil.png'); 
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh; 
+    position: relative;
+}
+
+
+@media (min-width: 992px) { 
+    .background-container {
+        background-image: url('./img/fondoweb.png'); /
+    }
+}
+
+.container {
+    background: #fff; 
+
+}
+
+.cormorant-garamond-regular {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  body, h1, h2, h3, p {
+    font-family: "Cormorant Garamond", serif;
+  }
+  
+
+  html {
+    font-family: "Cormorant Garamond", serif;
+  }
+  
+.nav-item {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    height: 59.2px; 
+    margin-bottom: 0; 
+}
+
+.nav-link {
+    line-height: 1.5; 
+    padding-top: .5rem; 
+    padding-bottom: .5rem; 
+   
+}
+
+
+#biografia {
+    background-color: #d78dffa2;
+    padding: 2rem 0; 
+}
+#proyectos {
+    background-color: #fc98ccae; 
+    padding: 2rem 0; 
+}
+
+#contacto {
+    background-color: #c0ffb0b9; 
+    padding: 2rem 0; 
+}
+
+.container {
+    background-color: transparent;
+}
+
+
+#biografia {
+    background-color: #f0e6d2a0; 
+    padding: 2rem 0; 
+}
+
+#proyectos {
+    background-color: #d277fa6f; 
+    padding: 2rem 0; 
+}
+
+#contacto {
+    background-color: #86b37193; 
+    padding: 2rem 0; 
+}
+
+.navbar {
+    margin-bottom: 0 !important; 
+}
+
+
+.background-container {
+    padding-top: 0 !important; 
+}
+
+.background-container > .container > :first-child {
+    margin-top: 0 !important; 
+}
+
+h2 {
+    font-size: 2.5rem;
+  }
+  
+  p {
+    font-size: 1rem; 
+  }
+  
+  .carousel-caption h5 {
+    font-size: 1.5rem;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.2rem;
+  }
+  
